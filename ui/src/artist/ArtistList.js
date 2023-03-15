@@ -174,6 +174,7 @@ const ArtistList = (props) => {
         filters={<ArtistFilter />}
         actions={<ArtistListActions />}
         pagination={false}
+        perPage={500}
       >
         <ArtistListView {...props} />
       </List>
