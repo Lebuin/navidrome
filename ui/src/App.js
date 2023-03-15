@@ -103,8 +103,8 @@ const Admin = (props) => {
       {...props}
     >
       {(permissions) => [
-        <Resource name="album" {...album} options={{ subMenu: 'albumList' }} />,
         <Resource name="artist" {...artist} />,
+        <Resource name="album" {...album} options={{ subMenu: 'albumList' }} />,
         <Resource name="song" {...song} />,
         <Resource
           name="radio"

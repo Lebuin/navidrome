@@ -173,6 +173,7 @@ const ArtistList = (props) => {
         bulkActionButtons={false}
         filters={<ArtistFilter />}
         actions={<ArtistListActions />}
+        pagination={false}
       >
         <ArtistListView {...props} />
       </List>
