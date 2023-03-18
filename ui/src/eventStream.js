@@ -59,7 +59,7 @@ const eventHandler = (event) => {
   setTimeout(defaultIntervalCheck) // Reset timeout on every received message
 }
 
-const throttledEventHandler = throttle(eventHandler, 100, { trailing: true })
+const throttledEventHandler = throttle(eventHandler, 5000, { trailing: true })
 
 const startEventStream = async () => {
   setTimeout(currentIntervalCheck)
